@@ -1,0 +1,60 @@
+{
+  "name": "eslint-config-alessioalex",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-config-standard-jsx": "^8.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "standardx": "*",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": ">=2.18.0",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
+    "eslint-plugin-standard": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/eslint-config-alessioalex.git"
+  },
+  "scripts": {
+    "test": "standardx && tape test/*.js | tap-spec"
+  },
+  "main": "index.js",
+  "keywords": [
+    "style checker",
+    "code style",
+    "code checker",
+    "code linter",
+    "style linter",
+    "simple",
+    "policy",
+    "style",
+    "code",
+    "lint",
+    "eslint",
+    "jshint",
+    "jscs",
+    "hint",
+    "enforce",
+    "check",
+    "verify",
+    "quality",
+    "checker",
+    "code standards",
+    "eslintconfig"
+  ],
+  "author": "Alexandru Vladutu <github@social.alessioalex.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+   "extends": ["semistandard", "standard-jsx"],
+   "rules": {
+     "generator-star-spacing": ["error", {"before": false, "after": true}],
+     "space-before-function-paren": ["error", {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+    }],
+     "yield-star-spacing": ["error", {"before": false, "after": true}]
+   }
+}
