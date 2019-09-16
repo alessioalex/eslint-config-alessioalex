@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alessioalex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "devDependencies": {
     "eslint": "6.2.2",
